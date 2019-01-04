@@ -16,14 +16,21 @@ The goal is to get as close to "Red Alert 2" as possible. No, we won't achieve t
 
 The following explains how it works...
 
-----
+<!-- Sep -->
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/800/1*CKyKxRXLovcrUOB-s8_jCw.png" width="100%" />
+</p>
 
-1. [Engine](#1-engine)
-2. [Front-End](#2-front-end)
-3. [Back-End](#3-back-end)
-4. [Marketing](#4-marketing)
+1. [Engine][engine]
+2. [Front-End][front-end]
+3. [Back-End][back-end]
+4. [Marketing][marketing]
+5. [Contributions][contributions]
 
-----
+<!-- Sep -->
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/800/1*CKyKxRXLovcrUOB-s8_jCw.png" width="100%" />
+</p>
 
 # 1. Engine
 
@@ -56,15 +63,24 @@ This goes without saying; if you're developing a game, you use an object-oriente
 
 With Rails, this is fairly natural.
 
-----
+<!-- Sep -->
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/800/1*CKyKxRXLovcrUOB-s8_jCw.png" width="100%" />
+</p>
 
 # 2. Front-End
 
-----
+<!-- Sep -->
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/800/1*CKyKxRXLovcrUOB-s8_jCw.png" width="100%" />
+</p>
 
 # 3. Back-end
 
-----
+<!-- Sep -->
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/800/1*CKyKxRXLovcrUOB-s8_jCw.png" width="100%" />
+</p>
 
 # 4. Marketing
 Not so important, but would certainly open up a lot of potentialities for people.
@@ -72,3 +88,55 @@ Not so important, but would certainly open up a lot of potentialities for people
 When creating a "game" - beyond its technology & playability - you need to create a compelling story.
 
 Only games which have a valid stoyline are adopted.
+
+<!-- Sep -->
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/800/1*CKyKxRXLovcrUOB-s8_jCw.png" width="100%" />
+</p>
+
+<!-- Sep -->
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/800/1*CKyKxRXLovcrUOB-s8_jCw.png" width="100%" />
+</p>
+
+# 5. Contributions
+Not so important, but would certainly open up a lot of potentialities for people.
+
+When creating a "game" - beyond its technology & playability - you need to create a compelling story.
+
+Only games which have a valid stoyline are adopted.
+
+<!-- ################################### -->
+<!--             Copyright               -->
+<!-- ################################### -->
+
+<!-- Sep -->
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/800/1*CKyKxRXLovcrUOB-s8_jCw.png" width="100%" />
+</p>
+
+:copyright: <a href="http://www.fl.co.uk" align="absmiddle" ><img src="readme/fl.jpg" height="22" align="absmiddle" /></a> <a href="http://stackoverflow.com/users/1143732/richard-peck?tab=profile" align="absmiddle" ><img src="https://avatars0.githubusercontent.com/u/1104431" height="22" align="absmiddle" /></a>
+
+<!-- ################################### -->
+<!--               Setup                 -->
+<!-- ################################### -->
+
+<!-- Refs -->
+<!-- Comments http://stackoverflow.com/a/20885980/1143732 -->
+<!-- Images   https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images -->
+
+<!-- Images -->
+[banner]:readme/banner.jpg
+
+<!-- Links -->
+[rubygems]: http://rubygems.org/gems/exception_handler
+
+<!-- Local Links -->
+[engine]:        #1-engine
+[front-end]:     #2-front-end
+[back-end]:      #3-back-end
+[marketing]:     #4-marketing
+[contributions]: #5-contributions
+
+<!-- ################################### -->
+<!-- ################################### -->
