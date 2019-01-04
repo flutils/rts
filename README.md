@@ -94,11 +94,6 @@ Only games which have a valid stoyline are adopted.
   <img src="https://cdn-images-1.medium.com/max/800/1*CKyKxRXLovcrUOB-s8_jCw.png" width="100%" />
 </p>
 
-<!-- Sep -->
-<p align="center">
-  <img src="https://cdn-images-1.medium.com/max/800/1*CKyKxRXLovcrUOB-s8_jCw.png" width="100%" />
-</p>
-
 # 5. Contributions
 Not so important, but would certainly open up a lot of potentialities for people.
 
