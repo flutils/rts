@@ -1,11 +1,18 @@
-# RTS Game
-As an exploratory project, we decided to create an [RTS game](https://en.wikipedia.org/wiki/Real-time_strategy) in Ruby on Rails.
+# 🛡️ RTS Game
+As an exploratory project, we decided to create an [RTS game](https://en.wikipedia.org/wiki/Real-time_strategy) in [Ruby on Rails](https://www.rubyonrails.org/) ↴
 
-There are ***two*** aspects to the game - ***front-end*** (what the user interacts with) and ***back-end*** (how the game is managed).
+![RTS Screenshot](https://wallpaperaccess.com/full/708596.jpg)
 
-The big difference with our game is how the back-end is managed with Ruby on Rails. We'll have the game engine in the front-end (JS), with the back-end being the equivalent of an API. It will have an admin area, into which you're able to manage / upload factions, units, vehicles & buildings, as well as being able to customize the look + feel of the game.
+There are ***two*** aspects to this →
 
-The goal is to get as close to "Red Alert 2" as possible. No, we won't achieve the same fidelity as the Westwood classic... but if we can get to a level where the gameplay, system and functionality seem as natural as it, we'll be doing well.
+ - ***front-end*** (what the user interacts with)
+ - ***back-end*** (how the game is managed)
+
+The big difference with what we're trying to do is how the back-end is managed (Ruby on Rails).
+
+We'll have the game engine in the front-end (JS), with the back-end being the equivalent of an API. The RoR app will have an admin area, into which you're able to manage / upload factions, units, vehicles & buildings, as well as being able to customize various UI elements of the game.
+
+The goal is to get as close to "Red Alert 2" as possible. No, we won't achieve the same fidelity as the Westwood classic... but if we can get to a level where the gameplay, system and functionality seem as natural, we'll be doing well.
 
 The following explains how it works...
 
@@ -42,7 +49,7 @@ This uses sprites which have been previously mocked-up in a 3D modelling program
  **2. HTML/CSS**<br />
 I aspire to make the engine deliver HTML/CSS based assets (playable in a browser).
 
-Whilst [webGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) exists, and will likely be required for certain elements within the system, I want to make the system as natively-driven as possible. This means using HTML & CSS to create/manage the various assets - using CSS styling to manage the various states of objects, and JS to manage this.
+Whilst [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) exists, and will likely be required for certain elements within the system, I want to make the system as natively-driven as possible. This means using HTML & CSS to create/manage the various assets - using CSS styling to manage the various states of objects, and JS to manage this.
 
 **3. OOP**<br />
 This goes without saying; if you're developing a game, you use an object-oriented pattern.
