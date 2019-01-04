@@ -1,4 +1,4 @@
-# 🛡️ RTS Game
+# RTS Game
 As an exploratory project, we decided to create an [RTS game](https://en.wikipedia.org/wiki/Real-time_strategy) in [Ruby on Rails](https://www.rubyonrails.org/) ↴
 
 ![RTS Screenshot](https://wallpaperaccess.com/full/708596.jpg)
