@@ -16,10 +16,7 @@ The goal is to get as close to "Red Alert 2" as possible. No, we won't achieve t
 
 The following explains how it works...
 
-<!-- Sep -->
-<p align="center">
-  <img src="https://cdn-images-1.medium.com/max/800/1*CKyKxRXLovcrUOB-s8_jCw.png" width="100%" />
-</p>
+----
 
 1. [Engine][engine]
 2. [Front-End][front-end]
@@ -27,10 +24,7 @@ The following explains how it works...
 4. [Marketing][marketing]
 5. [Contributions][contributions]
 
-<!-- Sep -->
-<p align="center">
-  <img src="https://cdn-images-1.medium.com/max/800/1*CKyKxRXLovcrUOB-s8_jCw.png" width="100%" />
-</p>
+----
 
 # 1. Engine
 
@@ -63,24 +57,15 @@ This goes without saying; if you're developing a game, you use an object-oriente
 
 With Rails, this is fairly natural.
 
-<!-- Sep -->
-<p align="center">
-  <img src="https://cdn-images-1.medium.com/max/800/1*CKyKxRXLovcrUOB-s8_jCw.png" width="100%" />
-</p>
+----
 
 # 2. Front-End
 
-<!-- Sep -->
-<p align="center">
-  <img src="https://cdn-images-1.medium.com/max/800/1*CKyKxRXLovcrUOB-s8_jCw.png" width="100%" />
-</p>
+----
 
 # 3. Back-end
 
-<!-- Sep -->
-<p align="center">
-  <img src="https://cdn-images-1.medium.com/max/800/1*CKyKxRXLovcrUOB-s8_jCw.png" width="100%" />
-</p>
+----
 
 # 4. Marketing
 Not so important, but would certainly open up a lot of potentialities for people.
@@ -89,10 +74,7 @@ When creating a "game" - beyond its technology & playability - you need to creat
 
 Only games which have a valid stoyline are adopted.
 
-<!-- Sep -->
-<p align="center">
-  <img src="https://cdn-images-1.medium.com/max/800/1*CKyKxRXLovcrUOB-s8_jCw.png" width="100%" />
-</p>
+----
 
 # 5. Contributions
 Not so important, but would certainly open up a lot of potentialities for people.
