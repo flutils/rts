@@ -87,10 +87,7 @@ Only games which have a valid stoyline are adopted.
 <!--             Copyright               -->
 <!-- ################################### -->
 
-<!-- Sep -->
-<p align="center">
-  <img src="https://cdn-images-1.medium.com/max/800/1*CKyKxRXLovcrUOB-s8_jCw.png" width="100%" />
-</p>
+----
 
 :copyright: <a href="http://www.fl.co.uk" align="absmiddle" ><img src="readme/fl.jpg" height="22" align="absmiddle" /></a> <a href="http://stackoverflow.com/users/1143732/richard-peck?tab=profile" align="absmiddle" ><img src="https://avatars0.githubusercontent.com/u/1104431" height="22" align="absmiddle" /></a>
 
