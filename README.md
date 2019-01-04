@@ -26,11 +26,15 @@ The following explains how it works...
 
 ----
 
+<!-- ################################### -->
+<!--               Engine                -->
+<!-- ################################### -->
+
 # 1. Engine
 
-The most important thing is to create an *engine*.
+The most important thing is the **engine**.
 
-Engines are able to be transferred between projects, and should be capable of being able to handle customized inputs (such as storylines etc), whilst rendering/managing the various assets made available in the system.
+Engines (not just "game" engines, but generally) are transferrable between projects, and should be capable of being able to handle customized inputs (such as storylines etc), whilst rendering/managing the various assets made available in the system.
 
 There are many ways to create engines for web-centric applications. However, with a game, you have to consider how the assets are going to be rendered. I will take some time to briefly explain how to do this here:
 
@@ -59,13 +63,25 @@ With Rails, this is fairly natural.
 
 ----
 
+<!-- ################################### -->
+<!--              Front-End              -->
+<!-- ################################### -->
+
 # 2. Front-End
 
 ----
 
+<!-- ################################### -->
+<!--              Back-End               -->
+<!-- ################################### -->
+
 # 3. Back-end
 
 ----
+
+<!-- ################################### -->
+<!--              Marketing              -->
+<!-- ################################### -->
 
 # 4. Marketing
 Not so important, but would certainly open up a lot of potentialities for people.
@@ -76,6 +92,10 @@ Only games which have a valid stoyline are adopted.
 
 ----
 
+<!-- ################################### -->
+<!--            Contributions            -->
+<!-- ################################### -->
+
 # 5. Contributions
 Not so important, but would certainly open up a lot of potentialities for people.
 
@@ -83,11 +103,11 @@ When creating a "game" - beyond its technology & playability - you need to creat
 
 Only games which have a valid stoyline are adopted.
 
+----
+
 <!-- ################################### -->
 <!--             Copyright               -->
 <!-- ################################### -->
-
-----
 
 :copyright: <a href="http://www.fl.co.uk" align="absmiddle" ><img src="readme/fl.jpg" height="22" align="absmiddle" /></a> <a href="http://stackoverflow.com/users/1143732/richard-peck?tab=profile" align="absmiddle" ><img src="https://avatars0.githubusercontent.com/u/1104431" height="22" align="absmiddle" /></a>
 
