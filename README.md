@@ -31,7 +31,7 @@ When considering "game" engines is there are *two* ways to manage the clientside
 
 The way in which you render assets is of vital importance. It defines much of the scope of the game's engine, and allows you to determine exactly what you're offering to the buyer. The choice is basically between 2D and 3D.
 
- - 2D game engines are driven by [sprites](https://en.wikipedia.org/wiki/Sprite_(computer_graphics)). Sprites are 2-dimensional images which are used to represent objects on a screen. Whilst early video games ([platformers](https://en.wikipedia.org/wiki/Platform_game), [scrollers](https://en.wikipedia.org/wiki/Side-scrolling_video_game) etc) were almost entirely driven by sprites.
+ - [2D game engines](https://en.wikipedia.org/wiki/2D_computer_graphics) are driven by [sprites](https://en.wikipedia.org/wiki/Sprite_(computer_graphics)). Sprites are 2-dimensional images which are used to represent objects on a screen. Whilst early video games ([platformers](https://en.wikipedia.org/wiki/Platform_game), [scrollers](https://en.wikipedia.org/wiki/Side-scrolling_video_game) etc) were almost entirely driven by sprites.
  
  - [3D game engines](https://en.wikipedia.org/wiki/3D_computer_graphics) are completely different. Rather than sprites, they deal with polygons + texturemaps. Depending on the complexity of the engine (how much graphical fidelity it provides), there may be other effects provided, such as normal maps, bump maps, specularity and reflectance. 
   
@@ -45,7 +45,9 @@ I aspire to make the engine deliver HTML/CSS based assets (playable in a browser
 Whilst [webGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) exists, and will likely be required for certain elements within the system, I want to make the system as natively-driven as possible. This means using HTML & CSS to create/manage the various assets - using CSS styling to manage the various states of objects, and JS to manage this.
 
 **3. OOP**<br />
-asdf
+This goes without saying; if you're developing a game, you use an object-oriented pattern.
+
+With Rails, this is fairly natural.
 
 ----
 
