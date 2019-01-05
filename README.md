@@ -168,7 +168,7 @@ Only games which have a valid stoyline are adopted.
 # 5. Contributions
 You're free to download and contribute to the code however you wish.
 
-Licensed under MIT license.
+Licensed under [MIT license][license].
 
 ----
 
@@ -198,6 +198,8 @@ Licensed under MIT license.
 [back-end]:      #3-back-end
 [marketing]:     #4-marketing
 [contributions]: #5-contributions
+
+[license]: LICENSE
 
 <!-- ################################### -->
 <!-- ################################### -->
