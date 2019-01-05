@@ -81,7 +81,7 @@ For example, if `Units` are moving between two co-ordinates, the `back-end` does
 <!-- ################################### -->
 
 # 3. Back-end
-Ruby on Rails (`/admin` endpoint ([`activeadmin`](https://activeadmin.info/)) + `API` for game creation/management (`nil` path)).
+Ruby on Rails (`admin` endpoint ([`activeadmin`](https://activeadmin.info/)) + `API` for game creation/management (`nil` path)).
 
 --
 
