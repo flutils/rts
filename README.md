@@ -74,6 +74,36 @@ The system will work by interfacing with the `back-end` and allowing users to se
 
 For example, if `Units` are moving between two co-ordinates, the `back-end` does not know about this. Only the `front-end` is able to manage the assets on the screen. This may change, but is how we'll define the scope between the two systems. 
 
+I have never designed something like this before, so will explain my overall thoughts:
+
+1. **Pathfinding / Movement**<br />
+ 
+   - Pathfinding
+   - [Swarming (collision avoidance etc)](http://www.red3d.com/cwr/steer/)
+   - Terrain management
+   
+As I've never designed anything like it, I don't know how to make the various objects move around on the screen. I anticipate that this JS engine will do all the heavy-lifting for the movement and interactivity. 
+  
+2. **OOP**<br />
+Object orientation is a programming design pattern centered around invoking "objects" into a worldview.
+
+Whilst any seasoned developer will know this already, when it comes to managing this system - the underlying way I want to ensure it works is to create a "game" environment, and allow users to spawn in different objects is to build an entirely object oriented system.
+
+The way it needs to work is to have a "game" scope/environment, through which each user is added and able to build units etc. The "game" scope will take the data from the `api` endpoint (back-end) and apply it to the rendered front-end.
+
+Since we're using 2.5D, each object is going to have a "state" which will be represented by its image. The image will be managed by CSS:
+
+```
+# stylesheet.sass 
+.units 
+  .conscript
+    background: [[ image ]]
+    &.dead
+      background: [[ image ]]
+```
+
+3. **sdf**<br />
+
 ----
 
 <!-- ################################### -->
@@ -157,7 +187,11 @@ Not so important, but would certainly open up a lot of potentialities for people
 
 When creating a "game" - beyond its technology & playability - you need to create a compelling story.
 
-Only games which have a valid stoyline are adopted.
+Might not seem that big of a deal, but it's actually quite interesting -- if you take [Age of Empires](https://en.wikipedia.org/wiki/Age_of_Empires) or [C&C](https://en.wikipedia.org/wiki/Command_%26_Conquer), their "stories" are all at the core of the game itself.
+
+Having a story - no matter how trivial - gives you the ability to create a "campaign" mode, and a number of other features that add depth to the experience. Whilst I'm not overly concerned about creating something substantive here, I am interested in building out something that users will be able to relate to.
+
+If you were to market this thing as a real product, what you'd do is focus it heavily around a central storyline. The "factions" within the game would represent two sides, who are at war with each other for some reason. The heroes of each side will have their own
 
 ----
 
