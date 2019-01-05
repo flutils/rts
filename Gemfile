@@ -70,6 +70,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'devise',           '~> 4.5'              # => Devise (athentication)
 gem 'activeadmin',      '~> 1.4', '>= 1.4.3'  # => ActiveAdmin (administration system)
 gem 'image_processing', '~> 1.7', '>= 1.7.1'  # => ImageProcessing (for Trix etc)
-gem 'friendly_id', '~> 5.2', '>= 5.2.5'       # => FriendlyID, although I don't think we'll need it
+gem 'friendly_id',      '~> 5.2', '>= 5.2.5'  # => FriendlyID, although I don't think we'll need it
+
+## Assets ##
+gem 'webpacker', '~> 4.0.0.rc.2'              # => WebPacker (allows us to build assets on front-end)
+
 ########################################
 ########################################
