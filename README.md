@@ -76,7 +76,7 @@ For example, if `Units` are moving between two co-ordinates, the `back-end` does
 
 I have never designed something like this before, so will explain my overall thoughts:
 
-1. **Pathfinding / Movement**<br />
+**1. Pathfinding / Movement**<br />
  
    - Pathfinding
    - [Swarming (collision avoidance etc)](http://www.red3d.com/cwr/steer/)
@@ -84,7 +84,7 @@ I have never designed something like this before, so will explain my overall tho
    
 As I've never designed anything like it, I don't know how to make the various objects move around on the screen. I anticipate that this JS engine will do all the heavy-lifting for the movement and interactivity. 
   
-2. **OOP**<br />
+**2. OOP**<br />
 Object orientation is a programming design pattern centered around invoking "objects" into a worldview.
 
 Whilst any seasoned developer will know this already, when it comes to managing this system - the underlying way I want to ensure it works is to create a "game" environment, and allow users to spawn in different objects is to build an entirely object oriented system.
@@ -102,7 +102,7 @@ Since we're using 2.5D, each object is going to have a "state" which will be rep
       background: [[ image ]]
 ```
 
-3. **sdf**<br />
+**3. sdf**<br />
 
 ----
 
