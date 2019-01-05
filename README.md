@@ -69,6 +69,7 @@ With Rails, this is fairly natural.
 
 # 2. Front-End
 
+
 ----
 
 <!-- ################################### -->
@@ -76,6 +77,63 @@ With Rails, this is fairly natural.
 <!-- ################################### -->
 
 # 3. Back-end
+Ruby on Rails (`/admin` endpoint + `API` for game creation/management (`nil` path)).
+
+--
+
+Will have the following data-structure:
+
+1. `User` (users who are registered to play the game)
+2. `Game` (games which have been run)
+3. `Resource` (resources the users can use/collect within the game -- allows for perks)
+4. `Unit` (units the user can create during the game)
+a) `Building` (should be sub-classed to `Unit` but without movement)
+b) `Infantry` (should be sub-classed to `Unit` and focus on people-centric game activity)
+c) `Vehicle`  (should be sub-classed to `Unit` and focus on vehicle-centric game activity)
+5. `TechTree` (allows us to define relationships between `Unit` -- determining which will get built // for example, `Unit` `110` can only be built if `Unit 122` is present in the `Game`)
+
+The back-end API should create the following:
+
+```
+-- Game
+--- Users
+----- | #user1
+------- | resources
+------- | buildings
+---------- | command
+---------- | barracks
+---------- | shipyard
+------- | units
+---------- | #group1 (if groups are allocated)
+------------ | conscript
+------------ | conscript
+------------ | conscript
+----- | #user2
+------- | resources
+------- | buildings
+------- | units
+```
+
+
+--
+
+Works as follows:
+
+ - Admin creates `factions`,`units`,`vehicles` and `resources` through admin panel
+ - Each of the above is based on a number of "base classes" which can be completely customized
+ - For example, maybe you want to add a unit which is only able to go on water. The base class would be `Unit`, but will have a large number of customization options that the admin will add through the admin panel:
+ 
+ [[ admin panel ]]
+ 
+  - For any "games" the user partakes in, a new `Game` will be created in the database. This `Game` will have a number of `Users` which will be allocated a number of `resources`,`units` depending on the type of `Game` created. For example, maybe the game begins with `20` units, or `1,000,000` resources.
+  
+  - Each `User` will be registered users and will be required to have an account on the system. The account signup process will be handled by `Devise` and reside at `https://www.game.com/signup` / `https://www.game.com/login`.
+  
+  - Every input the `user` makes in the game will be sent to the server (`https://www.game.com/:id/:user/units/new`) and a response formed by Rails. This response will be delivered back to the `front-end` and the engine will calculate the next steps.
+  
+  - The back-end will not calculate `front-end` stuff. For example, if the user sends units over a piece of land, the `back-end` will not track this. The `back-end` is only for managing `resources`, `units` and `vehicles` etc.
+  
+  - Users will not see the `back-end` - only the `front-end`. Admin panel users will be able to use it, but only in a secret capacity. The `front-end` (Angular) needs to handle all of the game UI etc.
 
 ----
 
