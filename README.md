@@ -68,7 +68,11 @@ With Rails, this is fairly natural.
 <!-- ################################### -->
 
 # 2. Front-End
+The front-end of the game is going to be built with `AngularJS` or some other front-end system.
 
+The system will work by interfacing with the `back-end` and allowing users to send requests to the `Rails` application. These requests will be dependent on the front-end rules created as part of the application.
+
+For example, if `Units` are moving between two co-ordinates, the `back-end` does not know about this. Only the `front-end` is able to manage the assets on the screen. This may change, but is how we'll define the scope between the two systems. 
 
 ----
 
@@ -77,7 +81,7 @@ With Rails, this is fairly natural.
 <!-- ################################### -->
 
 # 3. Back-end
-Ruby on Rails (`/admin` endpoint + `API` for game creation/management (`nil` path)).
+Ruby on Rails (`/admin` endpoint ([`activeadmin`](https://activeadmin.info/)) + `API` for game creation/management (`nil` path)).
 
 --
 
@@ -85,7 +89,8 @@ Will have the following data-structure:
 
 1. `User` (users who are registered to play the game)
 2. `Game` (games which have been run)
-3. `Resource` (resources the users can use/collect within the game -- allows for perks)
+3. `Resource` (resources the users can use/collect within the game -- allows for perks such as supply drops etc)
+4. `Map` (worldview which gets populated each time the game loads)
 4. `Unit` (units the user can create during the game)
 a) `Building` (should be sub-classed to `Unit` but without movement)
 b) `Infantry` (should be sub-classed to `Unit` and focus on people-centric game activity)
@@ -95,7 +100,14 @@ c) `Vehicle`  (should be sub-classed to `Unit` and focus on vehicle-centric game
 The back-end API should create the following:
 
 ```
--- Game
+-- Game (UUID)
+--- Map
+----- | spawns
+------- | #1
+------- | #2
+------- | #3
+----- | resources
+----- | other_stuff_here (texturemap etc)
 --- Users
 ----- | #user1
 ------- | resources
@@ -113,7 +125,6 @@ The back-end API should create the following:
 ------- | buildings
 ------- | units
 ```
-
 
 --
 
@@ -155,11 +166,9 @@ Only games which have a valid stoyline are adopted.
 <!-- ################################### -->
 
 # 5. Contributions
-Not so important, but would certainly open up a lot of potentialities for people.
+You're free to download and contribute to the code however you wish.
 
-When creating a "game" - beyond its technology & playability - you need to create a compelling story.
-
-Only games which have a valid stoyline are adopted.
+Licensed under MIT license.
 
 ----
 
